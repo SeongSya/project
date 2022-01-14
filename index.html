@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>R6S</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- REGULAR NAV -->
+<div class="top">
+  <div class="bar black card">
+    <a class="bar-item button padding-large hide-medium hide-large right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="bar-item button padding-large">MAIN</a>
+    <a href="#OPERATOR" class="bar-item button padding-large hide-small">OPERATOR</a>
+    <a href="#MAP" class="bar-item button padding-large hide-small">MAP</a>
+    <div class="dropdown-hover hide-small">
+      <button class="padding-large button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="dropdown-content bar-block card-4">
+        <a href="#" class="bar-item button">EX</a>
+        <a href="#" class="bar-item button">EX</a>
+        <a href="#" class="bar-item button">EX</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MOBILE NAV -->
+<div id="navDemo" class="bar-block black hide hide-large hide-medium top" style="margin-top:46px">
+  <a href="#OPERATOR" class="bar-item button padding-large" onclick="myFunction()">OPERATOR</a>
+  <a href="#MAP" class="bar-item button padding-large" onclick="myFunction()">MAP</a>
+  <a href="#" class="bar-item button padding-large" onclick="myFunction()">MORE</a>
+</div>
+
+
+<div class="content" style="max-width:2000px;margin-top:46px">
+
+
+  <div class="display-container center">
+    <img src="img/mainIndex.png" style="width:100%">
+    <div class="display-bottommiddle container text-white padding-32 hide-small">
+      <h3>TomClancy's Rainbow Six Siege</h3>
+      <p><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus aperiam eveniet incidunt iste quibusdam distinctio laborum quae accusantium est molestiae culpa fugiat, doloribus, recusandae earum eum! Deleniti nam ipsa accusantium?</b></p>   
+    </div>
+  </div>
+  
+
+  <!-- The OPERATOR Section -->
+  <div class="container content center padding-64" style="max-width:800px" id="OPERATOR">
+    <h2 class="wide">Operator</h2>
+    <p class="opacity"><i>UK SAS</i></p>
+    <p class="justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus a deleniti nobis ullam enim optio repellat facilis obcaecati, voluptatibus atque ipsum ipsam neque laborum ex iusto nostrum labore ipsa velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab doloremque doloribus labore iure dolorum nostrum neque fuga molestiae ipsum, reprehenderit molestias maiores earum odit non id libero consequatur minus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quibusdam nihil ratione culpa perferendis distinctio, alias eaque ad repellat asperiores quo unde id explicabo sunt voluptates recusandae odit impedit adipisci.</p>
+    <div class="row padding-32">
+      <div class="half">
+        <p>Mute</p>
+        <img src="img/R6-operator-mute.webp"  style="width:60%">
+      </div>
+      <div class="half">
+        <p>Smoke</p>
+        <img src="img/R6-operator-smoke.webp"  style="width:60%">
+      </div>
+      <div class="half">
+        <p>Sledge</p>
+        <img src="img/R6-operator-sledge.webp" style="width:60%">
+      </div>
+      <div class="half">
+        <p>Thatcher</p>
+        <img src="img/R6-operator-thatcher.webp" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The MAP Section -->
+  <div class="black" id="MAP">
+    <div class="container content padding-64" style="max-width:800px">
+      <h2 class="wide center">MAP</h2>
+      <p class="opacity center"><i>hereford</i></p><br>
+
+      <ul class="ul border white text-grey">
+        <li class="padding">B1 <span class="tag blue margin-left">CHECKED</span></li>
+        <li class="padding">1F <span class="tag blue margin-left">CHECKED</span></li>
+        <li class="padding">2F <span class="tag blue margin-left">CHECKED</span></li>
+        <li class="padding">3F <span class="tag red margin-left">UN CHECKED</span></li>
+      </ul>
+
+      <div class="row-padding padding-32" style="margin:0 -16px">
+        <div class="half margin-bottom">
+          <img src="img/r6-maps-hereford-blueprint-1.jpg" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p class="opacity">B1</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente error quia laudantium voluptas a consequuntur adipisci quasi facere dolor dicta amet, dolorem sequi eum sint aut asperiores repellat neque..</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('B1Modal').style.display='block'">More...</button>
+          </div>
+        </div>
+        <div class="half margin-bottom">
+          <img src="img/r6-maps-hereford-blueprint-2.jpg" alt="Paris" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p class="opacity">1F</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente error quia laudantium voluptas a consequuntur adipisci quasi facere dolor dicta amet, dolorem sequi eum sint aut asperiores repellat neque..</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('1FModal').style.display='block'">More...</button>
+          </div>
+        </div>
+        <div class="half margin-bottom">
+          <img src="img/r6-maps-hereford-blueprint-3.jpg" alt="San Francisco" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p class="opacity">2F</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente error quia laudantium voluptas a consequuntur adipisci quasi facere dolor dicta amet, dolorem sequi eum sint aut asperiores repellat neque..</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('2FModal').style.display='block'">More...</button>
+          </div>
+        </div>
+        <div class="half margin-bottom">
+          <img src="img/r6-maps-hereford-blueprint-4.jpg" alt="San Francisco" style="width:100%" class="hover-opacity">
+          <div class="container white">
+            <p class="opacity">3F</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente error quia laudantium voluptas a consequuntur adipisci quasi facere dolor dicta amet, dolorem sequi eum sint aut asperiores repellat neque..</p>
+            <button class="button black margin-bottom" onclick="document.getElementById('3FModal').style.display='block'">More...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- MODAL -->
+  <!-- B1 -->
+  <div id="B1Modal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container red center padding-32"> 
+        <span onclick="document.getElementById('B1Modal').style.display='none'" class="button red xlarge display-topright">×</span>
+        <h2 class="wide">B1</h2>
+      </header>
+      <div class="container">
+        <img src="img/r6-maps-hereford-blueprint-1.jpg" alt="" style="width: 100%;">
+        <button class="button red section" onclick="document.getElementById('B1Modal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- 1F -->
+  <div id="1FModal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container red center padding-32"> 
+        <span onclick="document.getElementById('1FModal').style.display='none'" class="button red xlarge display-topright">×</span>
+        <h2 class="wide">1F</h2>
+      </header>
+      <div class="container">
+        <img src="img/r6-maps-hereford-blueprint-2.jpg" alt="" style="width: 100%;">
+        <button class="button red section" onclick="document.getElementById('1FModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- 2F -->
+  <div id="2FModal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container red center padding-32"> 
+        <span onclick="document.getElementById('2FModal').style.display='none'" class="button red xlarge display-topright">×</span>
+        <h2 class="wide">2F</h2>
+      </header>
+      <div class="container">
+        <img src="img/r6-maps-hereford-blueprint-3.jpg" alt="" style="width: 100%;">
+        <button class="button red section" onclick="document.getElementById('2FModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- 3F -->
+  <div id="3FModal" class="modal">
+    <div class="modal-content animate-top card-4">
+      <header class="container blue center padding-32"> 
+        <span onclick="document.getElementById('3FModal').style.display='none'" class="button blue xlarge display-topright">×</span>
+        <h2 class="wide">3F</h2>
+      </header>
+      <div class="container">
+        <img src="img/r6-maps-hereford-blueprint-4.jpg" alt="" style="width: 100%;">
+        <button class="button red section" onclick="document.getElementById('3FModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- content END -->
+</div>
+
+
+
+<script>
+  // mobile NAV
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+  } else { 
+    x.className = x.className.replace(" show", "");
+  }
+}
+  // nav
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+</body>
+</html>
